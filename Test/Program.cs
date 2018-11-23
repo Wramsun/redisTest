@@ -11,6 +11,14 @@ namespace Test
     {
         static void Main(string[] args)
         {
+
+            DapperTest dapper = new DapperTest();
+            dapper.GetName();
+            //RedisTest();
+        }
+
+        private static void RedisTest()
+        {
             try
             {
                 //获取Redis操作接口
